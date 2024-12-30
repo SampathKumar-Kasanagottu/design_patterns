@@ -1,3 +1,13 @@
+/*
+The Singleton Design Pattern ensures that a class has only one instance and provides a global point of access to that instance. 
+This pattern is often used when you need to control access to shared resources, such as a configuration object, logging system, 
+or database connection.
+
+In C, the Singleton pattern can be implemented by making the constructor of a structure private and exposing a function that 
+manages the unique instance of the structure.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

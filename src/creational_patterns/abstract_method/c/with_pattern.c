@@ -1,3 +1,13 @@
+/*
+
+The Abstract Factory Design Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. 
+It promotes a high level of abstraction by defining an interface for creating objects but leaving the actual object creation to concrete factory classes.
+
+In C, we can simulate this pattern by using structs and function pointers. I'll demonstrate the Abstract Factory pattern with an example and 
+then show how the same system would look without using the Abstract Factory pattern.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

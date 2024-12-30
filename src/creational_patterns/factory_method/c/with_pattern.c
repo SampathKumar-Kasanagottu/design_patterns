@@ -1,3 +1,17 @@
+/*
+
+Factory Design Pattern in C
+
+The Factory Design Pattern provides a way to create objects without specifying the exact class of object that will be created. It defines an interface for creating an object, 
+but it is the subclasses (or concrete factory) that decide which class to instantiate. This pattern is especially useful when the object creation process is complex, 
+and you want to decouple object creation from the client code.
+
+In C, we can simulate this pattern using function pointers and structs. Here's an example where we create two types of shapes (Circle and Square) 
+using the Factory Pattern, and then we compare it to a version where the object creation is done without the Factory Pattern.
+
+*/
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

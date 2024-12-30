@@ -1,3 +1,14 @@
+/*
+
+The Builder Design Pattern is a creational design pattern that separates the construction of an object from its representation. 
+The goal is to construct complex objects step by step, allowing for more flexible and readable code when constructing objects with
+ many parts or options.
+
+The key idea behind the Builder pattern is that you use a builder object to configure and construct a complex object, avoiding the 
+need for complex constructors with many parameters or a monolithic constructor.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
