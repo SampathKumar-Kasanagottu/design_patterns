@@ -1,0 +1,8 @@
+# Ignore all .o files in the current directory
+*.o
+
+# Ignore all executable files in the current directory
+*$
+
+with_pattern
+without_pattern
